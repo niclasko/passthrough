@@ -1,3 +1,3 @@
 <?php
-	echo $_GET["u"];
+	echo file_get_contents($_GET["u"]);
 ?>
